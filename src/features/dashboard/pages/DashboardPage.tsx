@@ -86,13 +86,13 @@ export default function DashboardPage() {
   const quickHubs = getSidebarHubs().filter((hub) => hub.id !== 'dashboard').slice(0, 6)
 
   return (
-    <div className="space-y-6 pb-8">
-    {/* BANNER GTA */}
-<div className="overflow-hidden rounded-2xl border border-white/10">
+    <div className="space-y-3 pb-8">
+  {/* BANNER PRINCIPAL */}
+<div className="w-full -my-3">
   <img
     src="/covers/dashboard/banner-gta.png"
     alt="Grande Virada Hub"
-    className="block w-full h-auto object-cover"
+    className="block w-full h-auto"
   />
 </div>
       <section className="relative overflow-hidden rounded-[var(--radius-xl)] border border-white/10 bg-white/[0.045] p-5 shadow-[var(--shadow-card)] md:p-7">
@@ -130,7 +130,14 @@ export default function DashboardPage() {
           </Card>
         </div>
       </section>
-
+{/* FAIXA GTA 6 */}
+<section className="w-full overflow-hidden rounded-[var(--radius-md)] -my-3">
+  <img
+    src="/covers/dashboard/gta-faixa.png"
+    alt="Grande Virada - GTA 6"
+    className="block w-full h-auto object-cover"
+  />
+</section>
       <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <PremiumMetric icon={Zap} label={t('statsXp')} value={xp} caption={t('levelLabel', { level })} />
         <PremiumMetric icon={CalendarDays} label={t('statsDays')} value={daysUsingHub} caption={t('daysCaption')} />
