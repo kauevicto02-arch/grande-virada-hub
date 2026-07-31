@@ -1,0 +1,6 @@
+{
+  "title": "Favoritos",
+  "subtitle": "Todo lo que marcaste como favorito, organizado automáticamente.",
+  "tabs": { "course": "Curso", "idea": "Ideas", "prompt": "Prompts", "tool": "Herramientas", "news": "Noticias" },
+  "empty": "Todavía no marcaste nada como favorito."
+}

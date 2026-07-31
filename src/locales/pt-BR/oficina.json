@@ -1,0 +1,6 @@
+{
+  "title": "Oficina de Prompts",
+  "subtitle": "Biblioteca organizada de prompts prontos, por categoria.",
+  "categories": { "tiktok": "TikTok", "shorts": "Shorts", "youtube": "YouTube", "instagram": "Instagram", "imagens": "Imagens", "videos": "Vídeos", "thumbnail": "Thumbnail", "storytelling": "Storytelling", "gancho": "Gancho", "cta": "CTA" },
+  "empty": "Nenhum prompt encontrado nessa categoria."
+}

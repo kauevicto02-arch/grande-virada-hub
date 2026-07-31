@@ -1,0 +1,6 @@
+{
+  "title": "Taller de Prompts",
+  "subtitle": "Biblioteca organizada de prompts listos, por categoría.",
+  "categories": { "tiktok": "TikTok", "shorts": "Shorts", "youtube": "YouTube", "instagram": "Instagram", "imagens": "Imágenes", "videos": "Videos", "thumbnail": "Miniatura", "storytelling": "Storytelling", "gancho": "Gancho", "cta": "CTA" },
+  "empty": "No se encontraron prompts en esa categoría."
+}

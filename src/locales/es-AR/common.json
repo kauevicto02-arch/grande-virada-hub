@@ -1,0 +1,58 @@
+{
+  "appName": "Grande Virada Hub",
+  "nav": {
+    "dashboard": "Dashboard",
+    "academia": "Academia",
+    "arsenalIa": "Arsenal IA",
+    "laboratorioIdeias": "Laboratorio de Ideas",
+    "radarGta": "Radar GTA",
+    "oficinaPrompts": "Taller de Prompts",
+    "favoritos": "Favoritos",
+    "perfil": "Perfil",
+    "configuracoes": "Configuración"
+  },
+  "search": {
+    "placeholder": "Buscar módulos, ideas, prompts, herramientas...",
+    "noResults": "No se encontraron resultados.",
+    "resultsFor": "Resultados para \"{{query}}\""
+  },
+  "actions": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "favorite": "Marcar como favorito",
+    "unfavorite": "Quitar de favoritos",
+    "download": "Descargar",
+    "open": "Abrir",
+    "generate": "Generar Prompt",
+    "continue": "Continuar",
+    "markComplete": "Marcar como completada",
+    "markIncomplete": "Desmarcar",
+    "createContent": "Crear Contenido",
+    "viewAll": "Ver todo",
+    "back": "Volver",
+    "next": "Próxima lección",
+    "save": "Guardar"
+  },
+  "states": {
+    "loading": "Cargando...",
+    "empty": "Todavía no hay nada por aquí.",
+    "error": "Algo salió mal. Intentalo de nuevo."
+  },
+  "toasts": {
+    "promptCopied": "Prompt copiado.",
+    "favoriteSaved": "Favorito guardado.",
+    "favoriteRemoved": "Favorito eliminado.",
+    "languageChanged": "Idioma cambiado.",
+    "lessonCompleted": "¡Lección completada!",
+    "settingsSaved": "Configuración guardada."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "El contenido que buscás no existe o fue movido.",
+    "cta": "Volver al Dashboard"
+  },
+  "language": {
+    "pt-BR": "Português (Brasil)",
+    "es-AR": "Español (Argentina)"
+  }
+}

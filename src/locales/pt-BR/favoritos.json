@@ -1,0 +1,6 @@
+{
+  "title": "Favoritos",
+  "subtitle": "Tudo que você marcou como favorito, organizado automaticamente.",
+  "tabs": { "course": "Curso", "idea": "Ideias", "prompt": "Prompts", "tool": "Ferramentas", "news": "Notícias" },
+  "empty": "Você ainda não favoritou nada por aqui."
+}

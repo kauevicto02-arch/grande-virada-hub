@@ -1,0 +1,11 @@
+{
+  "title": "Configuración",
+  "language": "Idioma",
+  "theme": "Tema",
+  "themeDark": "Oscuro",
+  "themeLight": "Claro (próximamente)",
+  "notifications": "Notificaciones",
+  "sound": "Sonido",
+  "animations": "Animaciones",
+  "version": "Versión"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Radar GTA",
+  "subtitle": "Temas candentes del universo GTA 6, en tiempo real.",
+  "categories": { "noticia": "Noticia", "trailer": "Trailer", "rumor": "Rumor", "data": "Fecha", "alta": "Tendencia" },
+  "createContent": "Crear Contenido",
+  "empty": "No hay novedades en el radar ahora."
+}

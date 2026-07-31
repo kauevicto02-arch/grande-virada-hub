@@ -1,0 +1,21 @@
+{
+  "title": "Academia",
+  "subtitle": "Sua biblioteca premium de conhecimento sobre o Grande Virada.",
+  "progressSummary": "Seu progresso geral",
+  "modules": "Módulos",
+  "lessonsCount_one": "{{count}} aula",
+  "lessonsCount_other": "{{count}} aulas",
+  "estimatedTime": "{{minutes}} min",
+  "continueModule": "Continuar",
+  "moduleDetail": {
+    "materials": "Aulas",
+    "checklist": "Checklist da aula",
+    "nextLesson": "Próxima aula",
+    "pdfSection": "PDF de apoio",
+    "videoPlaceholder": "Vídeo em preparação. Em breve disponível.",
+    "backToModule": "Voltar aos módulos",
+    "downloadPdf": "Baixar PDF",
+    "openPdf": "Abrir PDF"
+  },
+  "empty": "Nenhum módulo disponível no momento."
+}

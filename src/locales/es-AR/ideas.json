@@ -1,0 +1,17 @@
+{
+  "title": "Laboratorio de Ideas",
+  "subtitle": "Nunca te quedes sin ideas para el próximo contenido.",
+  "filters": {
+    "category": "Categoría",
+    "platform": "Plataforma",
+    "popularity": "Popularidad",
+    "recent": "Más recientes",
+    "favorites": "Favoritos",
+    "all": "Todas",
+    "search": "Buscar idea..."
+  },
+  "categories": { "curiosidades": "Curiosidades", "misterios": "Misterios", "teorias": "Teorías", "mapa": "Mapa", "personagens": "Personajes", "veiculos": "Vehículos", "missoes": "Misiones", "gameplay": "Gameplay" },
+  "platforms": { "tiktok": "TikTok", "shorts": "Shorts", "reels": "Reels", "youtube": "YouTube" },
+  "viralPotential": { "baixo": "Bajo", "medio": "Medio", "alto": "Alto", "altissimo": "Altísimo" },
+  "empty": "No se encontraron ideas con esos filtros."
+}

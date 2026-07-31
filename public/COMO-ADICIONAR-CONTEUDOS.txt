@@ -1,0 +1,48 @@
+GRANDE VIRADA HUB — ONDE COLOCAR OS ARQUIVOS
+
+1. CAPAS DOS MÓDULOS
+Pasta: public/covers/
+Exemplos usados no projeto:
+- module-01.webp
+- module-02.webp
+- module-03.webp
+
+2. VÍDEOS DAS AULAS
+Pasta: public/videos/
+Padrão recomendado:
+- mod-01-aula-01.mp4
+- mod-01-aula-02.mp4
+- mod-01-aula-03.mp4
+- mod-01-aula-04.mp4
+
+3. PDFs
+Pasta: public/pdfs/
+Padrão recomendado:
+- mod-01-aula-01.pdf
+- mod-01-aula-02.pdf
+
+4. OUTROS MATERIAIS
+Pasta: public/materials/
+Pode colocar planilhas, imagens, arquivos ZIP e documentos.
+
+5. CADASTRO NO CÓDIGO
+Edite: src/data/course.ts
+
+Para uma capa:
+coverImage: '/covers/module-01.webp'
+
+Para um vídeo:
+videoPlaceholder: false,
+videoUrl: '/videos/mod-01-aula-01.mp4'
+
+Para um PDF:
+pdfUrl: '/pdfs/mod-01-aula-01.pdf',
+materials: [
+  { id: 'mat-1', label: 'Resumo em PDF', url: '/pdfs/mod-01-aula-01.pdf' }
+]
+
+IMPORTANTE:
+- Use nomes sem espaços e sem acentos.
+- Vídeo recomendado: MP4, codec H.264.
+- Capa recomendada: WebP ou JPG, proporção 16:9, por exemplo 1280x720.
+- Arquivos dentro de public são chamados começando com /, sem escrever public no caminho.

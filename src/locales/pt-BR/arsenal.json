@@ -1,0 +1,31 @@
+{
+  "title": "Arsenal IA",
+  "subtitle": "Central de Prompts Profissionais. Você preenche os campos, o Hub escreve o prompt.",
+  "notAiNotice": "Nenhum prompt é enviado para uma IA nesta versão — tudo é gerado localmente.",
+  "tools": {
+    "ideas-generator": { "name": "Gerador de Ideias", "description": "Gere ideias de conteúdo sob medida para o seu tema." },
+    "script-generator": { "name": "Gerador de Roteiros", "description": "Roteiros completos, prontos para gravar." },
+    "titles-generator": { "name": "Gerador de Títulos", "description": "Títulos com alto potencial de clique." },
+    "hashtags-generator": { "name": "Gerador de Hashtags", "description": "Hashtags estratégicas para cada plataforma." },
+    "descriptions-generator": { "name": "Gerador de Descrições", "description": "Descrições persuasivas para qualquer rede." },
+    "image-prompt-generator": { "name": "Gerador de Prompts para Imagens", "description": "Prompts profissionais e seguros para IA de imagem." },
+    "video-prompt-generator": { "name": "Gerador de Prompts para Vídeos", "description": "Prompts profissionais e seguros para IA de vídeo." }
+  },
+  "fields": {
+    "theme": "Tema",
+    "platform": "Plataforma",
+    "quantity": "Quantidade",
+    "tone": "Tom",
+    "duration": "Duração",
+    "socialNetwork": "Rede Social",
+    "objective": "Objetivo",
+    "style": "Estilo",
+    "format": "Formato",
+    "language": "Idioma"
+  },
+  "result": {
+    "title": "Prompt gerado",
+    "placeholder": "Preencha os campos e clique em \"Gerar Prompt\" para ver o resultado aqui."
+  },
+  "generate": "Gerar Prompt"
+}
