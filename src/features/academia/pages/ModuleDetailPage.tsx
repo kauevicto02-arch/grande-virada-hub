@@ -64,17 +64,30 @@ export default function ModuleDetailPage() {
         <div className="space-y-5">
           <Card>
             {activeLesson.videoUrl ? (
-              <video
-                key={activeLesson.id}
-                controls
-                preload="metadata"
-                poster={courseModule.coverImage}
-                className="aspect-video w-full rounded-[var(--radius-md)] border border-[var(--color-border-subtle)] bg-black object-contain"
-              >
-                <source src={activeLesson.videoUrl} type="video/mp4" />
-                Seu navegador não suporta reprodução de vídeo.
-              </video>
-            ) : (
+  activeLesson.videoUrl.includes('mediadelivery.net') ? (
+    <iframe
+      key={activeLesson.id}
+      src={activeLesson.videoUrl}
+      loading="lazy"
+      allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen"
+      allowFullScreen
+      className="aspect-video w-full rounded-[var(--radius-md)] border border-[var(--color-border-subtle)] bg-black"
+      title={activeLesson.title}
+    />
+  ) : (
+    <video
+      key={activeLesson.id}
+      controls
+      preload="metadata"
+      poster={courseModule.coverImage}
+      className="aspect-video w-full rounded-[var(--radius-md)] border border-[var(--color-border-subtle)] bg-black object-contain"
+    >
+      <source src={activeLesson.videoUrl} type="video/mp4" />
+
+      Seu navegador não suporta reprodução de vídeo.
+    </video>
+  )
+) : (
               <div className="aspect-video w-full rounded-[var(--radius-md)] bg-gradient-to-br from-[var(--color-bg-elevated)] to-black flex flex-col items-center justify-center gap-2 border border-[var(--color-border-subtle)]">
                 <PlayCircle size={40} className="text-[var(--color-brand-cyan)]" />
                 <p className="text-xs text-[var(--color-text-muted)] px-6 text-center">

@@ -21,7 +21,7 @@ export const courseModules: CourseModule[] = [
         description:
           'Entendé el contexto del lanzamiento, el tamaño de la audiencia esperada y la oportunidad que se abre para los creadores.',
         videoPlaceholder: false,
-        videoUrl: '/videos/mod-01-aula-01.mp4',
+       videoUrl: 'https://player.mediadelivery.net/embed/717381/133a6496-1679-4f15-91b3-d23f0729f195',
         pdfUrl: '/pdfs/mod-01-aula-01.pdf',
         materials: [{ id: 'mat-1', label: 'GTA-6-es-una-oportunidad-historica', url: '/pdfs/mod-01-aula-01.pdf' }],
         durationMinutes: 12,
@@ -33,7 +33,7 @@ export const courseModules: CourseModule[] = [
         title: 'El método de los 3 ganchos',
         description: 'Cómo captar la atención en los primeros 3 segundos de cualquier video corto.',
         videoPlaceholder: false,
-        videoUrl: '/videos/mod-01-aula-02.mp4',
+       videoUrl: 'https://player.mediadelivery.net/embed/717381/5e4e3f53-327a-4ae4-b7fc-95f01ae7427d',
         materials: [],
         durationMinutes: 13,
         order: 1,
@@ -55,7 +55,7 @@ export const courseModules: CourseModule[] = [
         title: 'El método de los 3 ganchos',
         description: 'Cómo captar la atención durante los primeros 3 segundos de cualquier video corto.',
         videoPlaceholder: false,
-        videoUrl: '/videos/mod-02-aula-01.mp4',
+       videoUrl: 'https://player.mediadelivery.net/embed/717381/2e6192a8-03a8-43d7-9663-f06c452052ad',
         pdfUrl: '/pdfs/mod-02-aula-01.pdf',
        materials: [
   {
@@ -84,7 +84,7 @@ export const courseModules: CourseModule[] = [
         title: 'Caminos de monetización para creadores de contenido',
         description: 'Descubrí diferentes formas de generar ingresos creando contenido dentro del nicho de GTA.',
         videoPlaceholder: false,
-        videoUrl: '/videos/mod-03-aula-01.mp4',
+       videoUrl: 'https://player.mediadelivery.net/embed/717381/2c7d9895-ecc3-46d9-8bd3-0d5c026efc85',
         pdfUrl: '/pdfs/mod-03-aula-01.pdf',
        materials: [
   {
@@ -127,7 +127,7 @@ export const courseModules: CourseModule[] = [
 
       videoPlaceholder: false,
 
-      videoUrl: '/videos/mod-04-aula-01.mp4',
+     videoUrl: 'https://player.mediadelivery.net/embed/717381/2a151e8a-11e0-45f7-b6e1-846b821372f3',
 
       pdfUrl: '/pdfs/mod-04-aula-01.pdf',
 
